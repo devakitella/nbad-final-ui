@@ -15,6 +15,11 @@
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <script src="%PUBLIC_URL%/js/vendor/modernizr-2.6.2.min.js"></script>
+    <script src="%PUBLIC_URL%/js/vendor/jquery-1.10.1.min.js"></script>
+    <script src="%PUBLIC_URL%/js/bootstrap.min.js"></script>
+    <script src="%PUBLIC_URL%/js/plugins.js"></script>
+    <script src="%PUBLIC_URL%/js/main.js"></script> 
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -26,7 +31,7 @@
     -->
     <title>React App</title>
   </head>
-  <body>
+  <body class="loading">
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
