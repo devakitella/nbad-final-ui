@@ -33,4 +33,6 @@ The project includes user authentication features:
 - **Visual Regression Test: SignUp Page**
   - Visual regression test using Applitools Eyes to ensure the SignUp page looks consistent.
 
+Two unit tests are written at backend.
+
 
